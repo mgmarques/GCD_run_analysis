@@ -59,7 +59,7 @@ data.frame:	10299 obs. of  561 variables:</p>
 
 > see summary_X.TXT file in this repository
 
-https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_X.TXT
+https://github.com/mgmarques/GCD_run_analysis/blob/master/Summary_X.txt
 
  
 ##### X_mean_std
@@ -68,7 +68,7 @@ data.frame:	10299 obs. of  66 variables:
 
 > see summary_X_mean_std.TXT file in this repository
 
-https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_X_mean_std.TXT
+https://github.com/mgmarques/GCD_run_analysis/blob/master/Summary_X_mean_std.txt
 
 ##### Y
 data.frame:	10299 obs. of  1 variables:
@@ -113,7 +113,7 @@ data.frame:	10299 obs. of  68 variables:
 
 > see summary_tidy.TXT file in this repository
  
-https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_tidy.TXT 
+https://github.com/mgmarques/GCD_run_analysis/blob/master/Summary_tidy.txt
 
 
 ##### tidy2 and file_tidy_2
@@ -122,7 +122,7 @@ data.frame:	180 obs. of  68 variables:
 
 > see summary_tidy2.TXT file in this repository
 
-https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_tidy2.TXT 
+https://github.com/mgmarques/GCD_run_analysis/blob/master/Summary_tidy2.txt
 
 > <p> $ ACTIVITY                 : chr  "laying" "sitting" "standing" "walking" ... </p> 
 > <p> $ SUBJECT                  : int  1 1 1 1 1 1 2 2 2 2 ... </p>
