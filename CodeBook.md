@@ -22,32 +22,37 @@ In sequence the main code block of this script execute checks of source files an
 At this point we proceed with a assign the directory that all data set was expect unziped to a variable called data_dir with value "./data/UCI HAR Dataset". Than confirm it's "./data/UCI HAR Dataset" directory exists, if doesn't ask to user the path of his UCI HAR Dataset directory. If user inform a invalid directory path stops execution of the current expression and executes an error action
 
 Finally, we proceed with steps of ours Peer Assessments/Getting and Cleaning Data Project: 
-1. Merges the training and the test sets to create one data set.
-1.1 X files are load and merge in a unique data.frame called X by the load_data that receive "X" and our data_dir for dataset and data_dir parameters.
-1.2 The same are made to Y and subject
-1.3 A date of this load is register in the dateLoaded variable.
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-2.1 Fist is proceed with a check if the features' metadata file exists and load it. Use the load_metadata function for it, assign the "features.txt" for the metadata_file parameter and our data_dir. The results, if the file exists are assign to the features variable, if not, this part of this code is stop and a error is emitted, but the execution continuous.
-2.2 Getting the index of measurements on the mean and standard deviation from the features. For this, we look for the pattern of "-mean\\(\\)|-std\\(\\)" in the second colon of features data.frame. With use of grep function, we can get the index where we find these patterns and assign to the mean_std_features_idx variable.
-2.3 With mean_std_features_idx we extracts only the measurements on the mean and standard deviation for each measurement and assigning to X_mean_std variable
-2.4 Uses features metadata index again and its names to name the mean and standard deviation measurements of the new data set. All names put in upper case and are cleaning, by change the "(" and ")" symbols by "" and "-" symbol by "_"
+ 1. Merges the training and the test sets to create one data set.
+<p>1.1. X files are load and merge in a unique data.frame called X by the load_data that receive "X" and our data_dir for dataset and data_dir parameters.</p>
+<p>1.2. The same are made to Y and subject</p>
+<p>1.3. A date of this load is register in the dateLoaded variable.</p>
 
-3. Uses descriptive activity names to name the activities in the data set
-3.1 First we need check if the activity's metadata file exists and load it with our load_metadata function with "activity_labels.txt" assign to the metadata_file parameter 
-3.2 If file exists the return is assign to activities variable, if not a message error is emitted, but don't abort the execution.
-3.3 Now we getting the index of descriptive activity names to name the activities in the data set. In this point, the code chages all "_" by " " and put all text in lower case.
-3.4 The activities' names are attribute to the Y data set
-3.5 Finally we change the name of activity field in the Y data set with "ACTIVITY"
 
-4. Appropriately labels the data set with descriptive activity names. 
-4.1 First we change the name of subject field in the subject data set with "SUBJECT"
-4.2 A unique tidy data.frame is created combine the colon of subject, Y, X_mean_std data.frames;
-4.3 A "tidy.txt" file is created in our data_dir with tidy data.frame. Again, we use the check_file_exist function to check if this file was created or not. In that case, if the file exists you receive a message too.  
+ 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+<p>2.1. Fist is proceed with a check if the features' metadata file exists and load it. Use the load_metadata function for it, assign the "features.txt" for the metadata_file parameter and our data_dir. The results, if the file exists are assign to the features variable, if not, this part of this code is stop and a error is emitted, but the execution continuous.</p>
+<p>2.2. Getting the index of measurements on the mean and standard deviation from the features. For this, we look for the pattern of "-mean\\(\\)|-std\\(\\)" in the second colon of features data.frame. With use of grep function, we can get the index where we find these patterns and assign to the mean_std_features_idx variable.</p>
+<p>2.3. With mean_std_features_idx we extracts only the measurements on the mean and standard deviation for each measurement and assigning to X_mean_std variable</p>
+<p>2.4. Uses features metadata index again and its names to name the mean and standard deviation measurements of the new data set. All names put in upper case and are cleaning, by change the "(" and ")" symbols by "" and "-" symbol by "_"</p>
 
-5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-5.1 A tidy2 variable assign with the aggregation of all measurements of tidy by "ACTIVITY" and "SUBJECT" colons with mean function and NA's removed.
-5.2 A "tidy_2.txt" file is created in our data_dir with tidy2 data.frame. Again, we use the check_file_exist function to check if this file was created or not. In that case, if the file exists you receive a message too.  
+
+ 3. Uses descriptive activity names to name the activities in the data set
+<p>3.1. First we need check if the activity's metadata file exists and load it with our load_metadata function with "activity_labels.txt" assign to the metadata_file parameter </p>
+<p>3.2. If file exists the return is assign to activities variable, if not a message error is emitted, but don't abort the execution.</p>
+<p>3.3. Now we getting the index of descriptive activity names to name the activities in the data set. In this point, the code chages all "_" by " " and put all text in lower case.</p>
+<p>3.4. The activities' names are attribute to the Y data set</p>
+<p>3.5. Finally we change the name of activity field in the Y data set with "ACTIVITY"</p>
+
+
+ 4. Appropriately labels the data set with descriptive activity names. 
+<p>4.1 First we change the name of subject field in the subject data set with "SUBJECT"</p>
+<p>4.2 A unique tidy data.frame is created combine the colon of subject, Y, X_mean_std data.frames</p>
+<p>4.3. A "tidy.txt" file is created in our data_dir with tidy data.frame. Again, we use the check_file_exist function to check if this file was created or not. In that case, if the file exists you receive a message too.</p>  
+
+
+ 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+<p>5.1. A tidy2 variable assign with the aggregation of all measurements of tidy by "ACTIVITY" and "SUBJECT" colons with mean function and NA's removed.</p>
+5.2. A "tidy_2.txt" file is created in our data_dir with tidy2 data.frame. Again, we use the check_file_exist function to check if this file was created or not. In that case, if the file exists you receive a message too.  
 
 
 
