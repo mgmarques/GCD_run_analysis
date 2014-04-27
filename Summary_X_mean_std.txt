@@ -1,0 +1,98 @@
+ TBODYACC_MEAN_X   TBODYACC_MEAN_Y    TBODYACC_MEAN_Z    TBODYACC_STD_X    TBODYACC_STD_Y    
+ Min.   :-1.0000   Min.   :-1.00000   Min.   :-1.00000   Min.   :-1.0000   Min.   :-1.00000  
+ 1st Qu.: 0.2626   1st Qu.:-0.02490   1st Qu.:-0.12102   1st Qu.:-0.9924   1st Qu.:-0.97699  
+ Median : 0.2772   Median :-0.01716   Median :-0.10860   Median :-0.9430   Median :-0.83503  
+ Mean   : 0.2743   Mean   :-0.01774   Mean   :-0.10892   Mean   :-0.6078   Mean   :-0.51019  
+ 3rd Qu.: 0.2884   3rd Qu.:-0.01062   3rd Qu.:-0.09759   3rd Qu.:-0.2503   3rd Qu.:-0.05734  
+ Max.   : 1.0000   Max.   : 1.00000   Max.   : 1.00000   Max.   : 1.0000   Max.   : 1.00000  
+ TBODYACC_STD_Z    TGRAVITYACC_MEAN_X TGRAVITYACC_MEAN_Y  TGRAVITYACC_MEAN_Z TGRAVITYACC_STD_X
+ Min.   :-1.0000   Min.   :-1.0000    Min.   :-1.000000   Min.   :-1.00000   Min.   :-1.0000  
+ 1st Qu.:-0.9791   1st Qu.: 0.8117    1st Qu.:-0.242943   1st Qu.:-0.11671   1st Qu.:-0.9949  
+ Median :-0.8508   Median : 0.9218    Median :-0.143551   Median : 0.03680   Median :-0.9819  
+ Mean   :-0.6131   Mean   : 0.6692    Mean   : 0.004039   Mean   : 0.09215   Mean   :-0.9652  
+ 3rd Qu.:-0.2787   3rd Qu.: 0.9547    3rd Qu.: 0.118905   3rd Qu.: 0.21621   3rd Qu.:-0.9615  
+ Max.   : 1.0000   Max.   : 1.0000    Max.   : 1.000000   Max.   : 1.00000   Max.   : 1.0000  
+ TGRAVITYACC_STD_Y TGRAVITYACC_STD_Z TBODYACCJERK_MEAN_X TBODYACCJERK_MEAN_Y TBODYACCJERK_MEAN_Z
+ Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.00000    Min.   :-1.000000   Min.   :-1.000000  
+ 1st Qu.:-0.9913   1st Qu.:-0.9866   1st Qu.: 0.06298    1st Qu.:-0.018555   1st Qu.:-0.031552  
+ Median :-0.9759   Median :-0.9665   Median : 0.07597    Median : 0.010753   Median :-0.001159  
+ Mean   :-0.9544   Mean   :-0.9389   Mean   : 0.07894    Mean   : 0.007948   Mean   :-0.004675  
+ 3rd Qu.:-0.9464   3rd Qu.:-0.9296   3rd Qu.: 0.09131    3rd Qu.: 0.033538   3rd Qu.: 0.024578  
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.00000    Max.   : 1.000000   Max.   : 1.000000  
+ TBODYACCJERK_STD_X TBODYACCJERK_STD_Y TBODYACCJERK_STD_Z TBODYGYRO_MEAN_X   TBODYGYRO_MEAN_Y  
+ Min.   :-1.0000    Min.   :-1.0000    Min.   :-1.0000    Min.   :-1.00000   Min.   :-1.00000  
+ 1st Qu.:-0.9913    1st Qu.:-0.9850    1st Qu.:-0.9892    1st Qu.:-0.04579   1st Qu.:-0.10399  
+ Median :-0.9513    Median :-0.9250    Median :-0.9543    Median :-0.02776   Median :-0.07477  
+ Mean   :-0.6398    Mean   :-0.6080    Mean   :-0.7628    Mean   :-0.03098   Mean   :-0.07472  
+ 3rd Qu.:-0.2912    3rd Qu.:-0.2218    3rd Qu.:-0.5485    3rd Qu.:-0.01058   3rd Qu.:-0.05110  
+ Max.   : 1.0000    Max.   : 1.0000    Max.   : 1.0000    Max.   : 1.00000   Max.   : 1.00000  
+ TBODYGYRO_MEAN_Z   TBODYGYRO_STD_X   TBODYGYRO_STD_Y   TBODYGYRO_STD_Z   TBODYGYROJERK_MEAN_X
+ Min.   :-1.00000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.00000    
+ 1st Qu.: 0.06485   1st Qu.:-0.9872   1st Qu.:-0.9819   1st Qu.:-0.9850   1st Qu.:-0.11723    
+ Median : 0.08626   Median :-0.9016   Median :-0.9106   Median :-0.8819   Median :-0.09824    
+ Mean   : 0.08836   Mean   :-0.7212   Mean   :-0.6827   Mean   :-0.6537   Mean   :-0.09671    
+ 3rd Qu.: 0.11044   3rd Qu.:-0.4822   3rd Qu.:-0.4461   3rd Qu.:-0.3379   3rd Qu.:-0.07930    
+ Max.   : 1.00000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.00000    
+ TBODYGYROJERK_MEAN_Y TBODYGYROJERK_MEAN_Z TBODYGYROJERK_STD_X TBODYGYROJERK_STD_Y
+ Min.   :-1.00000     Min.   :-1.00000     Min.   :-1.0000     Min.   :-1.0000    
+ 1st Qu.:-0.05868     1st Qu.:-0.07936     1st Qu.:-0.9907     1st Qu.:-0.9922    
+ Median :-0.04056     Median :-0.05455     Median :-0.9348     Median :-0.9548    
+ Mean   :-0.04232     Mean   :-0.05483     Mean   :-0.7313     Mean   :-0.7861    
+ 3rd Qu.:-0.02521     3rd Qu.:-0.03168     3rd Qu.:-0.4865     3rd Qu.:-0.6268    
+ Max.   : 1.00000     Max.   : 1.00000     Max.   : 1.0000     Max.   : 1.0000    
+ TBODYGYROJERK_STD_Z TBODYACCMAG_MEAN  TBODYACCMAG_STD   TGRAVITYACCMAG_MEAN TGRAVITYACCMAG_STD
+ Min.   :-1.0000     Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000     Min.   :-1.0000   
+ 1st Qu.:-0.9926     1st Qu.:-0.9819   1st Qu.:-0.9822   1st Qu.:-0.9819     1st Qu.:-0.9822   
+ Median :-0.9503     Median :-0.8746   Median :-0.8437   Median :-0.8746     Median :-0.8437   
+ Mean   :-0.7399     Mean   :-0.5482   Mean   :-0.5912   Mean   :-0.5482     Mean   :-0.5912   
+ 3rd Qu.:-0.5097     3rd Qu.:-0.1201   3rd Qu.:-0.2423   3rd Qu.:-0.1201     3rd Qu.:-0.2423   
+ Max.   : 1.0000     Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000     Max.   : 1.0000   
+ TBODYACCJERKMAG_MEAN TBODYACCJERKMAG_STD TBODYGYROMAG_MEAN TBODYGYROMAG_STD 
+ Min.   :-1.0000      Min.   :-1.0000     Min.   :-1.0000   Min.   :-1.0000  
+ 1st Qu.:-0.9896      1st Qu.:-0.9907     1st Qu.:-0.9781   1st Qu.:-0.9775  
+ Median :-0.9481      Median :-0.9288     Median :-0.8223   Median :-0.8259  
+ Mean   :-0.6494      Mean   :-0.6278     Mean   :-0.6052   Mean   :-0.6625  
+ 3rd Qu.:-0.2956      3rd Qu.:-0.2733     3rd Qu.:-0.2454   3rd Qu.:-0.3940  
+ Max.   : 1.0000      Max.   : 1.0000     Max.   : 1.0000   Max.   : 1.0000  
+ TBODYGYROJERKMAG_MEAN TBODYGYROJERKMAG_STD FBODYACC_MEAN_X   FBODYACC_MEAN_Y   FBODYACC_MEAN_Z  
+ Min.   :-1.0000       Min.   :-1.0000      Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000  
+ 1st Qu.:-0.9923       1st Qu.:-0.9922      1st Qu.:-0.9913   1st Qu.:-0.9792   1st Qu.:-0.9832  
+ Median :-0.9559       Median :-0.9403      Median :-0.9456   Median :-0.8643   Median :-0.8954  
+ Mean   :-0.7621       Mean   :-0.7780      Mean   :-0.6228   Mean   :-0.5375   Mean   :-0.6650  
+ 3rd Qu.:-0.5499       3rd Qu.:-0.6093      3rd Qu.:-0.2646   3rd Qu.:-0.1032   3rd Qu.:-0.3662  
+ Max.   : 1.0000       Max.   : 1.0000      Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+ FBODYACC_STD_X    FBODYACC_STD_Y     FBODYACC_STD_Z    FBODYACCJERK_MEAN_X FBODYACCJERK_MEAN_Y
+ Min.   :-1.0000   Min.   :-1.00000   Min.   :-1.0000   Min.   :-1.0000     Min.   :-1.0000    
+ 1st Qu.:-0.9929   1st Qu.:-0.97689   1st Qu.:-0.9780   1st Qu.:-0.9912     1st Qu.:-0.9848    
+ Median :-0.9416   Median :-0.83261   Median :-0.8398   Median :-0.9516     Median :-0.9257    
+ Mean   :-0.6034   Mean   :-0.52842   Mean   :-0.6179   Mean   :-0.6567     Mean   :-0.6290    
+ 3rd Qu.:-0.2493   3rd Qu.:-0.09216   3rd Qu.:-0.3023   3rd Qu.:-0.3270     3rd Qu.:-0.2638    
+ Max.   : 1.0000   Max.   : 1.00000   Max.   : 1.0000   Max.   : 1.0000     Max.   : 1.0000    
+ FBODYACCJERK_MEAN_Z FBODYACCJERK_STD_X FBODYACCJERK_STD_Y FBODYACCJERK_STD_Z FBODYGYRO_MEAN_X 
+ Min.   :-1.0000     Min.   :-1.0000    Min.   :-1.0000    Min.   :-1.0000    Min.   :-1.0000  
+ 1st Qu.:-0.9873     1st Qu.:-0.9920    1st Qu.:-0.9865    1st Qu.:-0.9895    1st Qu.:-0.9853  
+ Median :-0.9475     Median :-0.9562    Median :-0.9280    Median :-0.9590    Median :-0.8917  
+ Mean   :-0.7436     Mean   :-0.6550    Mean   :-0.6122    Mean   :-0.7809    Mean   :-0.6721  
+ 3rd Qu.:-0.5133     3rd Qu.:-0.3203    3rd Qu.:-0.2361    3rd Qu.:-0.5903    3rd Qu.:-0.3837  
+ Max.   : 1.0000     Max.   : 1.0000    Max.   : 1.0000    Max.   : 1.0000    Max.   : 1.0000  
+ FBODYGYRO_MEAN_Y  FBODYGYRO_MEAN_Z  FBODYGYRO_STD_X   FBODYGYRO_STD_Y   FBODYGYRO_STD_Z  
+ Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000  
+ 1st Qu.:-0.9847   1st Qu.:-0.9851   1st Qu.:-0.9881   1st Qu.:-0.9808   1st Qu.:-0.9862  
+ Median :-0.9197   Median :-0.8877   Median :-0.9053   Median :-0.9061   Median :-0.8915  
+ Mean   :-0.7062   Mean   :-0.6442   Mean   :-0.7386   Mean   :-0.6742   Mean   :-0.6904  
+ 3rd Qu.:-0.4735   3rd Qu.:-0.3225   3rd Qu.:-0.5225   3rd Qu.:-0.4385   3rd Qu.:-0.4168  
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+ FBODYACCMAG_MEAN  FBODYACCMAG_STD   FBODYBODYACCJERKMAG_MEAN FBODYBODYACCJERKMAG_STD
+ Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000          Min.   :-1.0000        
+ 1st Qu.:-0.9847   1st Qu.:-0.9829   1st Qu.:-0.9898          1st Qu.:-0.9907        
+ Median :-0.8755   Median :-0.8547   Median :-0.9290          Median :-0.9255        
+ Mean   :-0.5860   Mean   :-0.6595   Mean   :-0.6208          Mean   :-0.6401        
+ 3rd Qu.:-0.2173   3rd Qu.:-0.3823   3rd Qu.:-0.2600          3rd Qu.:-0.3082        
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000          Max.   : 1.0000        
+ FBODYBODYGYROMAG_MEAN FBODYBODYGYROMAG_STD FBODYBODYGYROJERKMAG_MEAN FBODYBODYGYROJERKMAG_STD
+ Min.   :-1.0000       Min.   :-1.0000      Min.   :-1.0000           Min.   :-1.0000         
+ 1st Qu.:-0.9825       1st Qu.:-0.9781      1st Qu.:-0.9921           1st Qu.:-0.9926         
+ Median :-0.8756       Median :-0.8275      Median :-0.9453           Median :-0.9382         
+ Mean   :-0.6974       Mean   :-0.7000      Mean   :-0.7798           Mean   :-0.7922         
+ 3rd Qu.:-0.4514       3rd Qu.:-0.4713      3rd Qu.:-0.6122           3rd Qu.:-0.6437         
+ Max.   : 1.0000       Max.   : 1.0000      Max.   : 1.0000           Max.   : 1.0000 
