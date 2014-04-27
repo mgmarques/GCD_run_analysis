@@ -11,6 +11,11 @@ Publisher the run_analysis code, code book abd results for performing my analysi
 * tidy.txt: Text file with the results of first all date prepared and cleaned with the instruction of steps 1 to 4 of our Peer Assessments/Getting and Cleaning Data Project
 * tidy2.txt:  Text file with the results of the second, independent tidy data set with the average of each variable for each activity and each subject.
 * CodeBook.md: A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data
+* summary_X.TXT: Represents the training and test dataset of X source merge in a unique dataset. 
+* summary_X_mean_std.TXT: Represents the training and test dataset of X source merge in a unique dataset already select only means and standard variation measurements and all columns names assign with transformed patters applied. 
+* tidy.TXT: Represents first tidy dataset and file generated, combine all columns of Y, X_mean_std and subject with already all names assign with transformed patters applied and column name assign too.    
+* summary_tidy2.TXT: Represents the second tidy dataset (tidy2) and file generated, with the aggregation of all measurements of tidy by "ACTIVITY" and "SUBJECT" colons with mean function and NA's removed.
+
 
 #### Steps to use my run_analysis.R:
 
