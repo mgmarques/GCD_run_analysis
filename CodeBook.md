@@ -59,6 +59,8 @@ data.frame:	10299 obs. of  561 variables:</p>
 
 > see summary_X.TXT file in this repository
 
+https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_X.TXT
+
  
 ##### X_mean_std
 data.frame:	10299 obs. of  66 variables:
