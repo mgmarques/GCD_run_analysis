@@ -67,7 +67,9 @@ data.frame:	10299 obs. of  66 variables:
 <b>Description:</b> Represents the training and test dataset of X source merge in a unique dataset already select only means and standard variation measurements and all columns names assign with transformed patters applied.    
 
 > see summary_X_mean_std.TXT file in this repository
- 
+
+https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_X_mean_std.TXT
+
 ##### Y
 data.frame:	10299 obs. of  1 variables:
 <b>Description:</b> Represents the training and test dataset of Y source merge in a unique dataset already all names assign with transformed patters applied and column name assign too.    
@@ -111,11 +113,16 @@ data.frame:	10299 obs. of  68 variables:
 
 > see summary_tidy.TXT file in this repository
  
+https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_tidy.TXT 
+
+
 ##### tidy2 and file_tidy_2
 data.frame:	180 obs. of  68 variables:
 <b>Description:</b> Represents the second tidy dataset (tidy2) and file generated, with the aggregation of all measurements of tidy by "ACTIVITY" and "SUBJECT" colons with mean function and NA's removed.
 
-> see summary_tidy.TXT file in this repository
+> see summary_tidy2.TXT file in this repository
+
+https://github.com/mgmarques/GCD_run_analysis/blob/master/summary_tidy2.TXT 
 
 > <p> $ ACTIVITY                 : chr  "laying" "sitting" "standing" "walking" ... </p> 
 > <p> $ SUBJECT                  : int  1 1 1 1 1 1 2 2 2 2 ... </p>
