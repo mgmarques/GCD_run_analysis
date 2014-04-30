@@ -111,11 +111,11 @@ activities[, 2] = gsub("_", " ", tolower(as.character(activities[, 2])));
 Y[,1] = activities[Y[,1], 2];
 
 ## Name the activity field in the data set
-names(Y) <- "ACTIVITY";
+names(Y) <- "activity";
 
 ## 4. Appropriately labels the data set with descriptive activity names. 
 
-names(subject) <- "SUBJECT";
+names(subject) <- "subject";
 tidy <- cbind(subject, Y, X_mean_std);
 write.table(tidy, paste(data_dir, "/tidy.txt", sep=""));
 if (check_file_exist(paste(data_dir, "/tidy.txt", sep=""))) {
@@ -123,7 +123,7 @@ if (check_file_exist(paste(data_dir, "/tidy.txt", sep=""))) {
 
 
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-tidy2 <-aggregate(tidy[, 3:68],by=tidy[c("ACTIVITY","SUBJECT")], FUN=mean, na.rm=TRUE);
+tidy2 <-aggregate(tidy[, 3:68],by=tidy[c("activity","subject")], FUN=mean, na.rm=TRUE);
 write.table(tidy2, paste(data_dir, "/tidy_2.txt", sep=""));
 if (check_file_exist(paste(data_dir, "/tidy_2.txt", sep=""))) {
         message(paste("A file tidy_2.txt was saved on ", data_dir))};
