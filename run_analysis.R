@@ -94,11 +94,10 @@ mean_std_features_idx <- grep("-mean\\(\\)|-std\\(\\)", features[, 2]);
 X_mean_std <- X[, mean_std_features_idx];
 
 ## Uses features metadata index and names to name the mean and standard deviation measurements
-## of the new data set. All names put in upper case and are cleaning, by change the "(" and 
-## ")" symbols by "" and "-" symbol by "_"
-names(X_mean_std) <- toupper(gsub("\\(|\\)", "",features[mean_std_features_idx, 2]));
-names(X_mean_std) <- gsub("\\-", "_",names(X_mean_std));
- 
+## of the new data set. All names put in lower case and are cleaning, by change the "(", and 
+## "")" and "-"symbols by ""
+names(X_mean_std) <- tolower(gsub("\\(|\\)|\\-", "",features[mean_std_features_idx, 2]));
+
 
 ## 3. Uses descriptive activity names to name the activities in the data set
 
