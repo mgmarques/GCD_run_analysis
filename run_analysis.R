@@ -94,10 +94,10 @@ mean_std_features_idx <- grep("-mean\\(\\)|-std\\(\\)", features[, 2]);
 X_mean_std <- X[, mean_std_features_idx];
 
 ## Uses features metadata index and names to name the mean and standard deviation measurements
-## of the new data set. All names put in lower case and are cleaning, by change the "(", and 
-## "")" and "-"symbols by ""
-names(X_mean_std) <- tolower(gsub("\\(|\\)|\\-", "",features[mean_std_features_idx, 2]));
-
+## of the new data set. All names put in upper case and are cleaning, by change the "(" and 
+## "")" symbols by "" and  "-" by "_"
+names(X_mean_std) <- toupper(gsub("\\(|\\)", "",features[mean_std_features_idx, 2]));
+names(X_mean_std) <- gsub("\\-", "_",names(X_mean_std));
 
 ## 3. Uses descriptive activity names to name the activities in the data set
 
@@ -111,11 +111,11 @@ activities[, 2] = gsub("_", " ", tolower(as.character(activities[, 2])));
 Y[,1] = activities[Y[,1], 2];
 
 ## Name the activity field in the data set
-names(Y) <- "activity";
+names(Y) <- "ACTIVITY";
 
 ## 4. Appropriately labels the data set with descriptive activity names. 
 
-names(subject) <- "subject";
+names(subject) <- "SUBJECT";
 tidy <- cbind(subject, Y, X_mean_std);
 write.table(tidy, paste(data_dir, "/tidy.txt", sep=""));
 if (check_file_exist(paste(data_dir, "/tidy.txt", sep=""))) {
@@ -123,7 +123,7 @@ if (check_file_exist(paste(data_dir, "/tidy.txt", sep=""))) {
 
 
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-tidy2 <-aggregate(tidy[, 3:68],by=tidy[c("activity","subject")], FUN=mean, na.rm=TRUE);
+tidy2 <-aggregate(tidy[, 3:68],by=tidy[c("ACTIVITY","SUBJECT")], FUN=mean, na.rm=TRUE);
 write.table(tidy2, paste(data_dir, "/tidy_2.txt", sep=""));
 if (check_file_exist(paste(data_dir, "/tidy_2.txt", sep=""))) {
         message(paste("A file tidy_2.txt was saved on ", data_dir))};
